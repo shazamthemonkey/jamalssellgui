@@ -1,0 +1,629 @@
+-- Gui to Lua
+
+
+-- Version: 3.2
+
+
+
+-- Instances:
+
+
+
+local Main = Instance.new("ScreenGui")
+
+
+local Gui = Instance.new("Frame")
+
+
+local Label = Instance.new("TextLabel")
+
+
+local Moneycounter = Instance.new("TextButton")
+
+
+local SwagCrash = Instance.new("TextButton")
+
+
+local Antiafk = Instance.new("TextButton")
+
+
+local AntiLag = Instance.new("TextButton")
+
+
+local RaycodexDrop = Instance.new("TextButton")
+
+
+local Close = Instance.new("TextButton")
+
+
+local Open = Instance.new("TextButton")
+
+
+
+--Properties:
+
+
+
+Main.Name = "Main"
+
+
+Main.Parent = game.Workspace
+
+
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+
+Gui.Name = "Gui"
+
+
+Gui.Parent = Main
+
+
+Gui.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+
+
+Gui.Position = UDim2.new(0.2505669, 0, 0.121510662, 0)
+
+
+Gui.Size = UDim2.new(0, 609, 0, 378)
+
+
+Gui.Visible = false
+
+
+Gui.Active = true
+
+
+Gui.Draggable = true
+
+
+
+Label.Name = "Label"
+
+
+Label.Parent = Gui
+
+
+Label.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+
+
+Label.BorderSizePixel = 0
+
+
+Label.Size = UDim2.new(0, 558, 0, 46)
+
+
+Label.Font = Enum.Font.SourceSans
+
+
+Label.Text = "script made by baboonjamal#5555"
+
+
+Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Label.TextScaled = true
+
+
+Label.TextSize = 14.000
+
+
+Label.TextWrapped = true
+
+
+
+Moneycounter.Name = "Moneycounter"
+
+
+Moneycounter.Parent = Gui
+
+
+Moneycounter.BackgroundColor3 = Color3.fromRGB(117, 149, 255)
+
+
+Moneycounter.BorderSizePixel = 0
+
+
+Moneycounter.Position = UDim2.new(0.510673225, 0, 0.725503981, 0)
+
+
+Moneycounter.Size = UDim2.new(0, 287, 0, 67)
+
+
+Moneycounter.Font = Enum.Font.SourceSans
+
+
+Moneycounter.Text = "Money counter"
+
+
+Moneycounter.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Moneycounter.TextScaled = true
+
+
+Moneycounter.TextSize = 14.000
+
+
+Moneycounter.TextWrapped = true
+
+
+Moneycounter.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/OG5/IkuScripts/main/DH/MoneyCounter', true))()
+
+
+end)
+
+
+
+SwagCrash.Name = "SwagCrash"
+
+
+SwagCrash.Parent = Gui
+
+
+SwagCrash.BackgroundColor3 = Color3.fromRGB(117, 149, 255)
+
+
+SwagCrash.BorderSizePixel = 0
+
+
+SwagCrash.Position = UDim2.new(0.0114942528, 0, 0.464235485, 0)
+
+
+SwagCrash.Size = UDim2.new(0, 229, 0, 77)
+
+
+SwagCrash.Font = Enum.Font.SourceSans
+
+
+SwagCrash.Text = "Swag Crash"
+
+
+SwagCrash.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+SwagCrash.TextScaled = true
+
+
+SwagCrash.TextSize = 14.000
+
+
+SwagCrash.TextWrapped = true
+
+
+SwagCrash.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+
+
+end)
+
+
+
+Antiafk.Name = "Antiafk"
+
+
+Antiafk.Parent = Gui
+
+
+Antiafk.BackgroundColor3 = Color3.fromRGB(117, 149, 255)
+
+
+Antiafk.BorderSizePixel = 0
+
+
+Antiafk.Position = UDim2.new(0.0114942528, 0, 0.723494768, 0)
+
+
+Antiafk.Size = UDim2.new(0, 229, 0, 68)
+
+
+Antiafk.Font = Enum.Font.SourceSans
+
+
+Antiafk.Text = "Anti Afk"
+
+
+Antiafk.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Antiafk.TextScaled = true
+
+
+Antiafk.TextSize = 14.000
+
+
+Antiafk.TextWrapped = true
+
+
+Antiafk.MouseButton1Down:Connect(function()
+
+
+	wait(0.5)local ba=Instance.new("ScreenGui")
+
+
+	local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+
+
+	local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+
+
+	ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+
+
+	ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+
+
+	ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+
+
+	ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk"ca.TextColor3=Color3.new(0,1,1)
+
+
+	ca.TextSize=22;da.Parent=ca
+
+
+	da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+
+
+	da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+
+
+	_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+
+
+	_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="Made by Headshot#5868"
+
+
+	_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+
+
+	ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
+
+
+	ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
+
+
+	ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+
+
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+
+
+		bb:CaptureController()bb:ClickButton2(Vector2.new())
+
+
+		ab.Text="Roblox kicked you but we didnt let them!"wait(2)ab.Text="Status : Active"end)
+
+
+end)
+
+
+
+AntiLag.Name = "AntiLag"
+
+
+AntiLag.Parent = Gui
+
+
+AntiLag.BackgroundColor3 = Color3.fromRGB(117, 149, 255)
+
+
+AntiLag.BorderSizePixel = 0
+
+
+AntiLag.Position = UDim2.new(0.510673225, 0, 0.464235485, 0)
+
+
+AntiLag.Size = UDim2.new(0, 287, 0, 77)
+
+
+AntiLag.Font = Enum.Font.SourceSans
+
+
+AntiLag.Text = "Swag Crash"
+
+
+AntiLag.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+AntiLag.TextScaled = true
+
+
+AntiLag.TextSize = 14.000
+
+
+AntiLag.TextWrapped = true
+
+
+AntiLag.MouseButton1Down:Connect(function()
+
+
+	local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+
+
+	local g = game
+
+
+	local w = g.Workspace
+
+
+	local l = g.Lighting
+
+
+	local t = w.Terrain
+
+
+	t.WaterWaveSize = 0
+
+
+	t.WaterWaveSpeed = 0
+
+
+	t.WaterReflectance = 0
+
+
+	t.WaterTransparency = 0
+
+
+	l.GlobalShadows = false
+
+
+	l.FogEnd = 9e9
+
+
+	l.Brightness = 0
+
+
+	settings().Rendering.QualityLevel = "Level01"
+
+
+	for i, v in pairs(g:GetDescendants()) do
+
+
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+
+
+			v.Material = "Plastic"
+
+
+			v.Reflectance = 0
+
+
+		elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+
+
+			v.Transparency = 1
+
+
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+
+
+			v.Lifetime = NumberRange.new(0)
+
+
+		elseif v:IsA("Explosion") then
+
+
+			v.BlastPressure = 1
+
+
+			v.BlastRadius = 1
+
+
+		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+
+
+			v.Enabled = false
+
+
+		elseif v:IsA("MeshPart") then
+
+
+			v.Material = "Plastic"
+
+
+			v.Reflectance = 0
+
+
+			v.TextureID = 10385902758728957
+
+
+		end
+
+
+	end
+
+
+	for i, e in pairs(l:GetChildren()) do
+
+
+		if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+
+
+			e.Enabled = false
+
+
+		end
+
+
+	end
+
+
+end)
+
+
+
+RaycodexDrop.Name = "RaycodexDrop"
+
+
+RaycodexDrop.Parent = Gui
+
+
+RaycodexDrop.BackgroundColor3 = Color3.fromRGB(117, 149, 255)
+
+
+RaycodexDrop.BorderSizePixel = 0
+
+
+RaycodexDrop.Position = UDim2.new(0.238095239, 0, 0.170584694, 0)
+
+
+RaycodexDrop.Size = UDim2.new(0, 287, 0, 77)
+
+
+RaycodexDrop.Font = Enum.Font.SourceSans
+
+
+RaycodexDrop.Text = "RaycodexDrop"
+
+
+RaycodexDrop.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+RaycodexDrop.TextScaled = true
+
+
+RaycodexDrop.TextSize = 14.000
+
+
+RaycodexDrop.TextWrapped = true
+
+
+RaycodexDrop.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
+
+
+end)
+
+
+
+Close.Name = "Close"
+
+
+Close.Parent = Gui
+
+
+Close.BackgroundColor3 = Color3.fromRGB(255, 64, 64)
+
+
+Close.BorderSizePixel = 0
+
+
+Close.Position = UDim2.new(0.91625613, 0, 0, 0)
+
+
+Close.Size = UDim2.new(0, 51, 0, 46)
+
+
+Close.Font = Enum.Font.SourceSans
+
+
+Close.Text = "X"
+
+
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Close.TextScaled = true
+
+
+Close.TextSize = 14.000
+
+
+Close.TextWrapped = true
+
+
+
+Open.Name = "Open"
+
+
+Open.Parent = Main
+
+
+Open.BackgroundColor3 = Color3.fromRGB(112, 167, 255)
+
+
+Open.BorderColor3 = Color3.fromRGB(27, 42, 53)
+
+
+Open.Position = UDim2.new(0, 0, 0.430213451, 0)
+
+
+Open.Size = UDim2.new(0, 94, 0, 50)
+
+
+Open.Font = Enum.Font.SourceSans
+
+
+Open.Text = "Open"
+
+
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Open.TextScaled = true
+
+
+Open.TextSize = 14.000
+
+
+Open.TextWrapped = true
+
+
+
+-- Scripts:
+
+
+
+local function NLBJJH_fake_script() -- Close.LocalScript 
+
+
+	local script = Instance.new('LocalScript', Close)
+
+
+
+	script.Parent.MouseButton1Down:Connect(function()
+
+
+		script.Parent.Parent.Visible = false
+
+
+	end)
+
+
+end
+
+
+coroutine.wrap(NLBJJH_fake_script)()
+
+
+local function QHKRKGR_fake_script() -- Open.LocalScript 
+
+
+	local script = Instance.new('LocalScript', Open)
+
+
+
+	script.Parent.MouseButton1Down:Connect(function()
+
+
+		script.Parent.Parent.Frame.Visible = true
+
+
+	end)
+
+
+end
+
+
+coroutine.wrap(QHKRKGR_fake_script)()
+
+
